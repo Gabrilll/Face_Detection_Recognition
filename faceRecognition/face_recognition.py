@@ -7,7 +7,7 @@
     @Date   : 2018-12-07 11:33:30
 """
 import facenet
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from .align import detect_face
 import numpy as np
 class facenetEmbedding:
