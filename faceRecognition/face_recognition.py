@@ -8,8 +8,7 @@
 """
 import facenet
 import tensorflow as tf
-from . import align
-import align.detect_face as detect_face
+from ./align import detect_face
 import numpy as np
 class facenetEmbedding:
     def __init__(self,model_path):
